@@ -1,0 +1,90 @@
+body{
+    font: 16px/28px arial; sans serif;
+    background-color: #eaeaea;
+    background-image: url(img.jpg);
+    color: #333;
+}
+.container{
+    margin: auto;
+    background-color: #fff;
+    max-width: 800px;
+    height: 100%;
+}
+.header{
+    padding: 20px;
+    padding-bottom: 2px;
+}
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.header ul li{
+    display: inline-block;
+    margin-top: auto;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.header a{
+    text-decoration: none;
+    color: rgb(15, 156, 238);
+    padding: 4px;
+}
+.header a:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+.hero{
+    height: 350px;
+    background-image: url(\gambar-1.jpg);
+    background-size: cover;
+    background-position: 30 -10;
+    border-top: 5px solid lightskyblue;
+    border-bottom: 5px solid salmon;
+}
+.content{
+    padding: 20px;
+}
+.content h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.content .penulis{
+    font-size: 11px;
+    margin-top: -25px;
+}
+.content .penulis a{
+    color: rgb(20, 13 226);
+    text-decoration: none;
+}
+,.content p{
+    margin-bottom: 2opx;
+    font-size: 14px;
+}
+.footer{
+    background-color: rgb(61, 60, 60);
+    padding: 10px;
+}
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 15px;
+}
+/* CSS Anime List Tonansub - Aka321 */
+.tslist321{font-family: 'Open Sans', Sans-serif;font-size: 13px}
+.tsjdl321{position: relative;margin-top: 0;margin-bottom: 5px;text-align: center;display: block;font-size: 24px}
+.tsjdl321:before{position: absolute;top: 50%;z-index: 1;display: block;width: 100%;height: 1px;border-top: 2px solid #ccc;content: ""}
+.tsjdl321 span{position: relative;z-index: 1;padding: 0 20px;background: #fff;display: inline-block}
+.tsinf321{color: #408c1f;background-color: #f1ffe0;border: 1px solid #c2e5b3;padding: 15px;border-radius: 4px;font-size: 13px}
+.tsinf321 .close{position: relative;color: inherit;opacity: 0.2;filter: alpha(opacity=20);float: right;font-size: 21px;font-weight: bold;cursor: pointer;background: transparent;border: 0}
+.tsani321 tr:nth-child(odd){background-color: rgba(90, 186, 198, 0.05)}
+.tsani321 td{padding: 8px !important;line-height: 1.5;vertical-align: top;border: 0;border-top: 1px solid #ebebeb;text-transform: capitalize}
+.tsani321 td:hover{background:none !important}
+.tsani321 i{padding-right: 5px;color: #75c5cf}
+.tsdl321{background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0,0.06) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#0f000000', GradientType=0 );background-color: #fff;color: #75c5cf !important;text-transform: uppercase;font-weight: bold;padding: 1px 5px;font-size: 12px !important;line-height: 1.5;border-radius: 3px;border: 1px solid #cccccc;display: inline-block;white-space: nowrap;vertical-align: middle;cursor: pointer}
+.tsdl321:hover {background: #fff;}
+
+.content-wrapper{
+display: none;position: relative;overflow: hidden;
+#main-wrapper{width: 66.66666667%;float: left}
+}
